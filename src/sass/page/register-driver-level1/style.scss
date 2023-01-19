@@ -1,0 +1,229 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+// style box register driver
+.box-register-driver{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}// style box input register
+.style-box-input-register{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+#form-phone-number-input1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+// style input phone number
+.phone-number{
+    margin-top: 8px;
+    padding: 9px;
+    width: 272px;
+    border: 0.5px solid $color_border_input ;
+border-radius: 5px;
+}
+// style input phone number
+#phone-number{
+    width: 270px;
+    padding: 9px;
+}
+// style submit
+.submit{
+    border: none;
+    padding: 5px 60px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+// style input phone number
+#input-phone-number{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 110px;
+    justify-content: space-between;
+}
+// style label input phone number
+.label-phone-number{
+    width: 265px;
+    font-size: 13px;
+}
+// style error pm
+#error-phone-number{
+    color: $red;
+    font-size: 10px;
+}
+// style box code input
+#box-code-input{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+// style box code
+#box-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+// style submit code
+.submit-code{
+    height: 40px;
+    width: 100px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-right: 4px;
+}
+// style selector city
+#city{
+    width: 120px;
+    border: none;
+    padding: 10px 6px 10px 8px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+// style selector city after
+#city::after{
+padding-left: 10px;
+}
+// style box city
+#box-city{
+    direction: rtl;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+}
+// style selector city
+#city1{
+    width: 120px;
+    margin-right: 16px;
+    border: none;
+    padding: 10px 6px 10px 8px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+// style input city
+.input-city{
+    margin-top: 20px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+// style submit register
+.submit-register{
+    margin-top: 20px !important;
+    border: none;
+    padding: 9px 114px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: $font-size-medium;
+}
+// style box city display
+#box-city-display{
+    display: none;
+}
+// style app box register page2
+.app-box-register-level2{
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+}
+// style error code
+#errorCODE{
+    color: $red;
+    font-size: $font-size-small;
+    text-align: center;
+    margin-left: 9%;
+}
+// style app box register
+.app-box-register-level3{
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+}
+// style resvansive
+@media only screen and (max-width: 653px) {
+    // style submit register
+    .submit-register{
+        width: 100% !important;
+        text-align: center;
+        padding: 3px 106px !important;
+        margin-top: 5px !important;
+    }
+    // style app box register 
+    .app-box-register-level3{
+        height: 126vh !important;
+    }
+    // style text input upload
+    #text-input-upload{
+        font-size: 9px !important;
+    }
+    // style img folder
+    .img-folder{
+        width: 15px !important;
+        height: 15px !important;
+    }
+    // style box input page2
+    .box-inputlevel2{
+        flex-direction: column !important;
+    align-items: center !important;
+    width: auto !important;
+    }
+    // style app box register page2
+    .app-box-register-level2{
+        height: 108vh !important;
+    }
+    // style box input link
+    .box-input-link{
+        width: 100% !important;
+        align-items: center;
+    }
+    // style next page1
+    #next-level1{
+        font-size: 12px !important;
+        height: 32px !important;
+    }
+    // style back level1
+    .back-level1{
+        font-size: 11px !important;
+        height: 32px !important;
+    }
+    // style rmdp input
+    .rmdp-input{
+height: 32px !important;
+    }
+    // style input phone number
+    .phone-number{
+        padding: 6px !important;
+    }
+    // style back level1
+    .back-level1{
+        width: 100% !important;
+    }
+    // style submit next level1
+    #next-level1{
+        width: 100% !important;
+    }
+    // end resvansive
+}
+

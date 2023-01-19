@@ -1,0 +1,17 @@
+@import '../../../varibale/all.scss';
+    // style loading search car
+.loading-search-car{
+  background-image: url(../../../assets/image/VdgG.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+   width: 1000px;
+   height: 100vh;
+}
+    // style box search car
+.style-box-search-car{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #cee3e2;
+}

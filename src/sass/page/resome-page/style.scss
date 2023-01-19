@@ -1,0 +1,35 @@
+.form-resoume{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    direction: ltr;
+}
+.submit-send-resoume{
+    border: none;
+    background-color: #22a8d1;
+    color: white;
+    padding: 5px;
+    width: 270px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.box-upload-resuome{
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+}
+.fa-folder-open{
+    font-size: 18px;
+    color: #22a8d1;
+}
+.title-resuome{
+    color: #22a8d1;
+
+}
+.box-resome{
+    background-color: rgba(255, 255, 255, 0.452);
+    background-image: url(../../../pattern.png);
+    height: 98vh;
+}

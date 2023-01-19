@@ -1,0 +1,81 @@
+@import "../../../varibale/all.scss";
+.fa-comment,.fa-phone-alt{
+    font-size: 17px;
+}
+.Discount-profile-driver{
+  box-shadow: none;
+ border-radius: 0px;
+}
+.Discount-profile-driver:focus{
+  background-color: rgba(255, 255, 255, 0);
+}
+.img-call-driver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box-rating{
+  margin-bottom: 75%;
+  margin-right: -62px;
+}
+.submit-rating{
+  background-color: #ffae00;
+  padding: 2px 25px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.box-star{
+  display: flex;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+.submit-end-trip{
+    border: none;
+    border: none;
+    width: 85px;
+    margin-right: 56px;
+    background-color: $yellow;
+    border-radius: 3px;
+    color: white;
+}
+.star-container {
+    display: flex;
+    width: 350px;
+    flex-direction: row-reverse;
+  }
+  
+  .div-star{
+      position: absolute;
+  }
+  
+  .star:before {
+    content: "\f005";
+    font-family: fontAwesome;
+    font-size: 60px;
+    position: relative;
+    display: block;
+    color: #aaa;
+  }
+  
+  .star:after {
+    content: "\f005";
+    font-family: fontAwesome;
+    position: absolute;
+    top: 7px;
+    font-size: 60px;
+    color: gold;
+    opacity: 0;
+  }
+  .star:hover:after,
+  .star:hover ~ .star:after,
+  .star.star__checked:after,
+  .star.star__checked ~ .star:after{
+    opacity: 1;
+  }

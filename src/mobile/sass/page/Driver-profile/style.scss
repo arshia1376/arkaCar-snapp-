@@ -1,0 +1,129 @@
+@import '../../../varibale/all.scss';
+.driver-profile{
+    width: 370px;
+    height: 260px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+.submit-cancell{
+    width: 300px;
+    border: none;
+    background-color: rgba(219, 219, 219, 0.377);
+    border-radius: 3px;
+}
+.price-origin-car-driver-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+}
+.box-driver-profile{
+    display: flex;
+    width: 24%;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+.style-display-driver-profile{
+    display: flex;
+    justify-content: center;
+}
+.box-price-time{
+    position:absolute;
+    height: 67%;
+    margin-top: 6px;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.time-Reach-the-car{
+    background-color: white;
+    padding: 4px;
+    font-size: 11px;
+    border-radius: 4px;
+    width: 130px;
+    margin-bottom: 35px;
+}
+.img-driver{
+    border-radius: 50%;
+    width: 40px;
+}
+// .origin-truck{
+//     background-color: white;
+// }
+.img-call-driver{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(255, 174, 0);
+}
+.box-call-driver{
+    display: flex;
+    width: 31%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-img-name-driver{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-img-driver{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tag-car{
+    display: flex;
+    width: 35%;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 8px 3px rgba(194, 194, 194, 0.267);
+    justify-content: space-around;
+}
+.tag-city{
+    padding-left: 5px;
+    border-left: 2px solid gray;
+}
+.text-profile-driver{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-tag-car{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.box-input-profile-driver{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 3px rgba(173, 173, 173, 0.185);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.box-style-input-driver{
+    display: flex;
+    justify-content: center;
+}
+.Discount-profile-driver{
+    border: none;
+    border-radius: 12px;
+    box-shadow: none;
+    width: 40%;
+    padding: 10px 0px;
+}
+.underline-discount{
+    height: 100%;
+    width: 2px;
+    background-color: gray;
+}

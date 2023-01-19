@@ -1,0 +1,145 @@
+@import '../../../varibale/all.scss';
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.box-state-tabline{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.fass{
+color: #ffae00;
+font-size:27px;
+
+}
+.box-font-awesome{
+  display: flex;
+  padding:0px 5px;
+    align-items: center;
+  border-radius: 8px 0px 0px 8px;
+  height: 42px;
+  border: 0.5px solid $yellow;
+  
+}
+.car-reserve{
+  z-index: 3;
+  display: flex;
+  border-radius:8px;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  width: 165px;
+  justify-content: space-between;
+  border:none;
+  border: 0.5px solid $color_border_input;
+}
+#tab1,#tab2,#tab3{
+  display: none;
+  &:checked + label {
+    background: #ffae00;
+    color:white;
+    border-radius: 8px 8px 0px 0px;
+  }
+}
+body {
+  .container {
+    border-radius: 13px;
+    width: 100%;
+    border-radius: 13px;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    border: 0.5px solid $color_border_input;
+    overflow: hidden;
+    // input {
+    //   display: none;
+    //   &:checked + label {
+    //     background: #ffae00;
+    //     color:white;
+    //     border-radius: 8px 8px 0px 0px;
+    //   }
+    //   @for $i from 1 through 4 {
+    //     &#tab#{$i}:checked {
+    //       ~ .line {
+    //         left: #{($i - 1) * 25%};
+    //       }
+    //       ~ .content-container #c#{$i} {
+    //         opacity: 1;
+    //       }
+
+    //     }
+    //   }
+    // }
+ .defult-label {
+  background: #ffae00;
+  color:white;
+  border-radius: 8px 8px 0px 0px;
+ }
+    label {
+      display: inline-block;
+      font-size: 16px;
+      height: 36px;
+      line-height: 36px;
+      width: 33.33%;
+      text-align: center;
+      background: #ffffff9f;
+      color: #555;
+      position: relative;
+      transition: 0.25s background ease;
+      cursor: pointer;
+      &::after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        display: block;
+        background: rgba(255, 174, 0, 0.342);
+        bottom: 0;
+        opacity: 0;
+        left: 0;
+        transition: 0.25s ease;
+      }
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+ 
+    .content-container {
+      background: rgba(255, 255, 255, 0.527);
+      position: relative;
+      height: 115px;
+      font-size: 16px;
+      .content-tab {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        opacity: 1;
+        transition: 0.25s ease;
+        color: #333;
+        h3 {
+          font-weight: 200;
+    
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+.title-car{
+  text-align: center;
+  color: black;
+}
+.box-text-car{
+width: 100%;
+}

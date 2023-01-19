@@ -1,0 +1,56 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+.box-input-level3{
+    display: flex;
+    width: 21%;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+}
+.box-input-link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.file-input {
+    display: none;
+  }
+ 
+  .image-upload{
+      display: flex;
+      border-radius: 5px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 9px;
+    width: 272px;
+    border: 0.5px solid $color_border_input;
+text-align: center;
+  }
+
+  #text-input-upload{
+      font-size: 10px;
+      margin-right: 9px;
+      color: rgba(194, 194, 194, 0.63);
+  }
+  .img-folder{
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+  }
+  .box-img-upload{
+    width: 100%;
+    direction: rtl;
+    margin-top: 10px;
+  }
+  .title-img-upload{
+      margin: 0%;
+      font-size: 13px;
+      margin-bottom: 7px;
+  }
+  .img-folder:hover{
+      cursor: pointer;
+  }
+  

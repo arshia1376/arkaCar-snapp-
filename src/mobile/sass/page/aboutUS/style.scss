@@ -1,0 +1,31 @@
+.underline{
+    width: 10%;
+    height: 2px;
+    background-color: #ffd900;
+}
+.orderline{
+    width: 80%;
+    height: 2px;
+    background-color: #ffd900;
+}
+.text-aboutus{
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+.title-aboutus{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    padding-top: 85px;
+}
+.text-about-us{
+    width: 89%;
+    direction: rtl;
+    margin-top: 70px;
+    margin-right: 25px;
+    margin-bottom: 70px;
+}
+.description{
+    width: 60%;
+}

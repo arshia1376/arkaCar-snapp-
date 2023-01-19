@@ -1,0 +1,50 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+header{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    direction: rtl;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 15px 5px rgba(165, 165, 165, 0.1);
+}
+
+body{
+    margin: 0%;
+    // font-family: "iranyekan";
+}
+.fa-map-marker-alt{
+    padding: 5px 9px;
+    position: absolute;
+    z-index: 1;
+    font-size: 29px;
+    margin-right: 43px;
+    margin-top: 71vh;
+    background-color: white;
+    border-radius: 50%;
+}
+.fa-search{
+font-size: 18px;
+margin-left: 10px;
+color: black;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logo-arka-car{
+    height: 65px;
+}
+.link{
+    color: $black;
+}
+#link{
+    color: $black;
+}

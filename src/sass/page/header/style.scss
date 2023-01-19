@@ -1,0 +1,110 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+    // style header
+header{
+    position: fixed;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    direction: rtl;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 15px 5px rgba(165, 165, 165, 0.1);
+}
+    // style body
+body{
+    margin: 0%;
+    // font-family: "iranyekan";
+}
+    // style fa map marker alt
+.fa-map-marker-alt{
+    padding: 5px 9px;
+    position: absolute;
+    z-index: 1;
+    font-size: 29px;
+    margin-right: 43px;
+    margin-top: 71vh;
+    background-color: white;
+    border-radius: 50%;
+}
+    // style fa search
+.fa-search{
+font-size: 18px;
+margin-left: 10px;
+color: black;
+}
+    // style logo 
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+    // style logo arka car
+.logo-arka-car{
+    height: 65px;
+}
+    // style link
+.link{
+    color: $black;
+}
+    // style link
+#link{
+    color: $black;
+}
+    // style mobile header
+.mobile-header{
+    display: none;
+}
+    // style resvansive eader
+@media only screen and (max-width: 653px) {
+        // style mobile header
+  .mobile-header{
+      display: block;
+  }
+      // style app header
+  .App-header{
+      display: none;
+  }
+      // style li header mobile
+  .li-header-mobile{
+      border-bottom: .5px solid $yellow;
+      font-size: 10px;
+      list-style: none;
+      margin-top: 10px;
+      margin-right: 8px;
+      margin-bottom: 3px;
+  }
+      // style ul header mobile
+  .ul-header-mobile{
+      position: absolute;
+      margin-top: 36px;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #f3f3f3;
+  }
+      // style header
+  header{
+      height: 45px;
+  }
+      // style logo arka car mobile
+  .logo-arka-car-mobile{
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+    // style register user
+  .register-user{
+      background-color: #FFBA00;
+      border: none;
+      padding: 2px 4px;
+      border-radius: 5px;
+      color: white;
+      font-size: 8px;
+  }
+      // style end resvansive
+}

@@ -1,0 +1,173 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+// style app footer
+.app-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+// style footer
+footer{
+    width: 100%;
+    height: 270px   ;
+    background-color: $yellow;
+    display: flex;
+    direction: ltr;
+    margin-top: 0px;
+}
+// style meny footer
+.menu-footer{
+    width: 65%;
+    height: 100%;
+ 
+}
+// style namad etemad
+.namad-etemad{
+    width: 35%;
+    background-color: $yellow;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+// style tag a
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+// style list footer box
+.list-footer-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 55px;
+    height: 70%;
+    align-items: center;
+}
+// style list footer
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    direction: rtl;
+}
+ // style network
+.network{
+    height: 30%;
+    background-color: $yellow;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+}
+// style logo img network
+.logo-img-network{
+    width: 30px;
+    height: 30px;
+}
+// style logo network
+.logo-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+// style logo
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+// style logo arka car
+.logo-arka-car{
+    height: 50px;
+}
+// style footer mobile
+.footer-mobile{
+    display: none;
+}
+// style namd
+.namad{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+}
+// style resvansive footer
+@media only screen and (max-width: 653px) {
+    // style footer
+    footer{
+      display: none;
+      direction: rtl;
+    }
+    // style footer mobile
+    .footer-mobile{
+        display: flex;
+        background-color: $yellow;
+        height: 130px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    // style list footer
+    .list-footer{
+        font-size: 8px;
+        margin-right: 0px;
+      text-align: center;
+      direction: rtl;
+    }
+    // style box list footer1
+  .box-list-footer1{
+      margin-left: 9px;
+  }
+    // style box list footer
+
+    .box-list-footer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    // style logo img network
+    .logo-img-network{
+        width: 13px;
+        height: 10px;
+    }
+    // style title network
+
+    .title-network{
+        font-size: 7px;
+    }
+    // style namad
+
+    .namad{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        
+    }
+    // style list footer box
+
+    .list-footer-box{
+        display: flex;
+        margin-top: 15px;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-right: 0px;
+        width: 80%;
+        
+    }
+    // style logo network
+
+    .logo-network{
+        width: 20%;
+    }
+    // style box img logo footer mobile
+
+    .box-img-logo-footer-mobile{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // end style resvansive
+    
+}
+

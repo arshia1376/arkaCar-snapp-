@@ -1,0 +1,168 @@
+.header-forsat{
+    width: 100%;
+}
+.img-section-forsat{
+width: 100%;
+background-color: gray;
+height: 550px;
+background-image: url(../../../prog.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+display: flex;
+}
+.title-section-forsat{
+    text-align: center;
+   color: white;
+   font-size: 40px;
+   width: fit-content;
+   background-color: rgba(25, 160, 214, 0.185);
+   height: fit-content;
+   padding: 10px;
+   border-radius: 10px;
+}
+.social-media-forsat{
+    display: flex;
+}
+.network-forsat{
+    padding-left: 20px;
+    width: 46px;
+    height: 26px;
+}
+.orderline-forsat{
+    height: 3px;
+    width: 173px;
+    background-color: #5895e0;
+}
+.logo-forsat{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo-arkatec{
+    width: 90px;
+    height: 90px;
+}
+.box-title-section-forsat{
+    display: flex;
+    justify-content: center;
+}
+.box-title-section-forsat{
+    padding-top: 300px;
+    width: 50%;
+}
+.button-forsat-section{
+    width: 50%;
+    padding-top: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-section{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+.box-option-forsat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-option-forsat{
+    width: 300px;
+   
+}
+.box-title-lifestyle-arkatec{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.option-forsat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.box-collapsible-forsat{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 90px;
+    background-color: rgba(168, 168, 168, 0.151);
+    flex-direction: column;
+    align-items: center;
+}
+.collapsible-forsat{
+    padding-top: 100px;
+    width: 80%;
+}
+.email-forsat{
+    color: blue;
+}
+.box-email-forsat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 653px) {
+    .option-forsat{
+        flex-direction: column;
+    }
+    .img-option-forsat{
+        width: 200px;
+        margin-top: 10px;
+    }
+    .title-section-forsat{
+        font-size: 11px;
+    }
+    .title-section{
+        font-size: 9px;
+    }
+    .button-forsat-section{
+        padding-top: 100px;
+    }
+    .box-title-section-forsat{
+        padding-top: 100px;
+    }
+    .img-section-forsat{
+        height: 180px;
+    }
+    .network-forsat {
+        padding-left: 19px;
+        width: 38px;
+        height: 19px;
+    }
+    .title-lifestyle-arkatec{
+        direction: ltr !important;
+        font-size: 13px;
+    }
+    .text-forsat-email{
+        font-size: 11px;
+        direction: ltr;
+        padding: 4px;
+        text-align: center;
+    }
+    .box-email-forsat{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .collapsible-forsat{
+        padding-top: 30px;
+    }
+    .email-forsat{
+        font-size: 11px;
+    }
+    .title-option-live-arka{
+        font-size: 11px;
+    }
+    .box-collapsible-forsat{
+        margin-top: 30px;
+    }
+    .submit-resome{
+        font-size: 10px;
+    }
+}

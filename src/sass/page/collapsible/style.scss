@@ -1,0 +1,42 @@
+// style header collapsible
+.header1{
+    cursor: pointer;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-bottom: solid .5px #9b9b9b75;
+    }
+    .header-collapsible{
+        direction: ltr;
+    }
+    // style header hover
+    .header1:hover{
+        background-color: rgba(201, 201, 201, 0.116);
+        color:rgb(0, 0, 0);
+        border-bottom: solid 1px #ff9900;
+    }
+    // style content collapsible
+    .content1{
+        width: 60%;
+    cursor: pointer;
+
+    border-bottom: solid 1px #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    font-size: 14px;
+    
+    }
+    // style resvansive header collapsible
+    @media only screen and (max-width: 653px) {
+        // style header
+.header1{
+    padding: 14px;
+    font-size: 10px;
+}
+// style content
+.content1{
+    font-size: 9px;
+    width: 100% !important;
+}
+
+    }

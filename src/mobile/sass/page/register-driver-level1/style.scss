@@ -1,0 +1,134 @@
+@import '../../../varibale/color.scss';
+@import '../../../varibale/size.scss';
+.box-register-driver{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style-box-input-register{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.phone-number{
+    margin-top: 8px;
+    padding: 9px;
+    width: 272px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+#phone-number{
+    width: 270px;
+    padding: 9px;
+}
+.submit{
+    text-align: center;
+    border: none;
+    padding: 5px 60px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+#input-phone-number{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 110px;
+
+    justify-content: space-between;
+}
+#label-phone-number{
+    width: 265px;
+    font-size: 13px;
+}
+#error-phone-number{
+    color: $red;
+    font-size: 10px;
+}
+#box-code-input{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#box-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.submit-code{
+    height: 40px;
+    width: 100px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-right: 4px;
+}
+#city{
+    width: 120px;
+    border: none;
+    padding: 10px 6px 10px 8px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+#city::after{
+padding-left: 10px;
+}
+#box-city{
+    direction: rtl;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#city1{
+    width: 120px;
+    margin-right: 16px;
+    border: none;
+    padding: 10px 6px 10px 8px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+.input-city{
+    margin-top: 20px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-submit-register{
+    margin-top: 20px !important;
+    width: 100%;
+}
+#submit-register{
+    border: none;
+    padding: 9px 114px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: $font-size-medium;
+}
+#box-city-display{
+    display: none;
+   
+ 
+}
+#errorCODE{
+    color: $red;
+    font-size: $font-size-small;
+    text-align: center;
+    margin-left: 9%;
+}
+

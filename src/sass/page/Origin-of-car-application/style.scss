@@ -1,0 +1,175 @@
+@import '../../../varibale/all.scss';
+    // style box origin car
+.box-origin-car{
+    width: 96%;
+    height: 107px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px 20px 0px 0px;
+}
+    // style discount code subit
+.discount-code-submit{
+    border: none;
+    background-color: rgba(230, 230, 230, 0.466);
+
+}
+    // style box origin cars
+.box-origin-cars{
+    display: flex;
+    height: 98vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+    // style box origin car truck
+.box-origin-cars-truck{
+    width: 27%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+    // style box origin car select
+.box-origin-car-select{
+    width: 98%;
+    height: 107px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+}
+    // style origin car
+.origin-car{
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+    margin-top: 15px;
+}
+    // style submit origin  car
+.submit-origin-car{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: $yellow;
+    color: white;
+}
+    // style img submit back
+.img-submit-back{
+   width: 30px;
+   border-radius: 50%;
+ 
+}
+    // style submit back origin
+.submit-back-origin{
+    position: absolute;
+    left: 0px;
+        padding: 25px;
+}
+    // style select origin option
+#select-origin-option{
+    margin-top: 15px;
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+}
+    // style price origin car
+.price-origin-car{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+    background-color: white;
+}
+    // style text price origin
+.text-price-origin{
+    font-size: 13px;
+}
+    // style resvansive
+@media only screen and (max-width: 600px) {
+        // style submit back origin
+    .submit-back-origin{
+        margin-top: 26px !important;
+        z-index: 1;
+    }
+        // style img submit back
+    .img-submit-back{
+        width: 20px !important;
+    }
+        // style fa map marker alt
+    .fa-map-marker-alt{
+        font-size: 19px !important;
+        margin-right: 5% !important;
+        margin-top: 69vh !important;
+    }
+        // style submit origin car
+    .submit-origin-car{
+        font-size: 13px !important;
+        width: 94% !important;
+    }
+        // style origin car placeholder
+    .origin-car::placeholder{
+        font-size: 10px !important;
+    
+    }
+        // style price origin car
+    .price-origin-car{
+        margin-top: 11px !important;
+        width: 94% !important;
+    }
+        // style discount code submit
+    .discount-code-submit{
+        font-size: 11px !important;
+    }
+        // style box origin car selector
+    .box-origin-car-select {
+        border-radius: 10px 10px 0px 0px !important;
+    }
+        // style origin car
+    .origin-car{
+        margin-top: 11px !important;
+        width: 94% !important;
+    }
+        // style select origin option
+    #select-origin-option {
+        margin-top: 11px !important;
+        width: 95%;
+    }
+        // style text price origin
+    .text-price-origin{
+        font-size: 11px;
+    }
+        // style unit
+    .unit{
+        width: 49% !important;
+    }
+        // style box unit
+    .box-unit{
+        width: 94% !important;
+        padding: 8px !important;
+    } 
+        // style box discount code
+    .box-discount-code{
+        width: 133px !important;
+    }
+    // end resvansive
+}

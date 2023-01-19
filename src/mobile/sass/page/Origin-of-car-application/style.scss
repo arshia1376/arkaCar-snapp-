@@ -1,0 +1,94 @@
+@import '../../../varibale/all.scss';
+.box-origin-car{
+    width: 96%;
+    height: 107px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px 20px 0px 0px;
+}
+.discount-code-submit{
+    border: none;
+    background-color: rgba(230, 230, 230, 0.466);
+
+}
+.box-origin-cars{
+    display: flex;
+    height: 98vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+.box-origin-cars-truck{
+    width: 27%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-origin-car-select{
+    width: 98%;
+    height: 107px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+}
+.origin-car{
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+    margin-top: 15px;
+}
+.submit-origin-car{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: $yellow;
+    color: white;
+}
+.img-submit-back{
+   width: 30px;
+   border-radius: 50%;
+ 
+}
+.submit-back-origin{
+    position: absolute;
+    left: 0px;
+        padding: 25px;
+}
+#select-origin-option{
+    margin-top: 15px;
+    border: none;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+}
+.price-origin-car{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+    background-color: white;
+}
+.text-price-origin{
+    font-size: 13px;
+}

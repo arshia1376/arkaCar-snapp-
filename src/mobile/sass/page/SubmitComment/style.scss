@@ -1,0 +1,55 @@
+@import '../../../varibale/all.scss';
+.style-SubmitComment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+textarea{
+    width: 100%;
+    border:none;
+    background-color:rgba(211, 211, 211, 0.712);
+    border-radius: 10px;
+}
+textarea::placeholder{
+    padding: 5px;
+    font-size: $font-size-medium;
+}
+.box-SubmitComment{
+width: 81%;
+}
+.submit-click-comment{
+    border: none;
+    padding: 5px 70px;
+    color: $white;
+    background-color: $yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.back-click-comment{
+    border: none;
+    padding: 5px 84px;
+    color: $white;
+    background-color: $gray;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.information-comment{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.form-comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.submit-comment{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}

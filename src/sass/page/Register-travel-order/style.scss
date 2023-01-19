@@ -1,0 +1,94 @@
+@import '../../../varibale/all.scss';
+// style box travel car
+.style-box-travel-car{
+    width: 450px;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    display: flex;
+}
+// style display travel order
+.display-travel-order{
+display: flex;
+justify-content: flex-end;
+}
+// style box unit
+.box-unit{
+    background-color: white;
+}
+// style receive request
+.Receive-request{
+    height: 39vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+}
+// style load weight
+.Load-weight{
+    background-color: white;
+}
+// style option receive request
+.option-Receive-request{
+    height: 61vh;
+    width: 100%;
+    background-color: $yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+// style travel car
+.travel-car{
+    width: 100%;
+}
+// style online price
+.online-price{
+    padding: 3px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 85px;
+    background-color: rgba(128, 128, 128, 0.603);
+}
+// style ofline price
+.ofline-price{
+    padding: 3px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 85px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+// style accept requests
+.Accept-requests{
+    width: 100%;
+    border: none;
+    background-color: $yellow;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+// style price receive request
+.price-Receive-request{
+ margin-right: 30px;
+}
+.Payment-Method{
+    display: flex;
+    margin-right: 30px;
+    width: 70%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+// style button payment
+.style-button-payment{
+    width: 200px;
+}
+// style box button payment
+.box-button-payment{
+    display: flex;
+    justify-content: space-between;
+}

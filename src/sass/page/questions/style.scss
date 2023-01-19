@@ -1,0 +1,115 @@
+@import "../../../varibale/all.scss";
+// style box blog
+.box-blog {
+  display: flex;
+  justify-content: center;
+}
+// style question
+.style {
+  width: 81%;
+  margin-top: 70px;
+}
+// style img questions
+.img-questions {
+  width: 200px;
+  height: 200px;
+}
+// style title questions
+.title-questions {
+  display: flex;
+  align-items: center;
+
+}
+// style svg
+.svg {
+  width: 286px;
+  position: absolute;
+  margin-top: -207px;
+  z-index: -1;
+}
+// style text question
+#text-questions {
+  font-size: $font-size-medium;
+  width: 60%;
+}
+// style line
+.line {
+  width: 125px;
+  height: 2px;
+  margin: 20px;
+  background-color: $yellow;
+}
+// style line title
+.line-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// style collapsible
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid rgba(68, 68, 68, 0.274);
+  text-align: right;
+  outline: none;
+  font-size: $font-size-medium;
+}
+// style active collapsible hover
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+// style content
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+// style resvansive
+@media only screen and (max-width: 600px) {
+  // style svg
+  .svg{
+    width: 130px !important;
+    height: 130px !important;
+    margin-top: -140px !important;
+  }
+  // style img questions
+  .img-questions{
+display: none !important;
+  }
+  // style text questions
+  #text-questions{
+    font-size: 9px !important;
+    width: 99% !important;
+  }
+  // style questions title
+  .questions-title{
+    font-size: 11px;
+    width: 70px;
+  }
+// end resvansive
+}

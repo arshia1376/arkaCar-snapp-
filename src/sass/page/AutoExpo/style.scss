@@ -1,0 +1,114 @@
+@import '../../../varibale/all.scss';
+// box style selector style
+.city{
+    border: none;
+    background-color:$white;
+    padding-left: 27px;
+    margin-left: 15px;
+}
+// box selector city
+.select-city{
+    height: 43px;
+}
+// input auto expo
+.expo{
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+text-align: center;
+margin-top: 25px;
+display: flex;
+}
+// box expo
+.box-expo{
+    width:19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+// city selector style
+.city2{
+    border-right: 1px solid rgba(105, 105, 105, 0.301);
+    padding: 0px 15px; 
+}
+// style input expo
+.style-input-expo{
+    margin-top: 8px;
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+margin-top: 25px;
+}
+// style box display
+.box-display{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+// title auto expo
+.title{
+    text-align: center;
+}
+// submit onclick
+.submit{
+    text-align: center;
+    width: 270px;
+    padding: 9px;
+    background-color: $yellow;
+    box-shadow: none;
+}
+// style form
+form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+//resvansive auto expo
+@media only screen and (max-width: 600px) {
+  .expo{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top: 0px !important;
+    height: 100px !important;
+    width: 254px !important;
+  }
+//   style city box
+  .city{
+      margin: 0px !important;
+  }
+//   style input expo
+  .style-input-expo{
+      width: 235px !important;
+      margin-top: 0px !important;
+  }
+//   city expo selector
+  .city-expo{
+      border-radius: 5px !important;
+      padding: 7px 0px !important;
+      border: 0.5px solid $color_border_input;
+      }
+    //   city seletor box
+  .city2{
+      margin-top: 10px !important;
+      border-right: .5px solid rgba(202, 202, 202, 0.39) !important; 
+      border: 0.5px solid $color_border_input;
+  }
+//   box expo
+  .box-expo{
+      width: 100% !important;
+      align-items: center;
+    }
+    // select city box 2
+    .select-city2{
+        margin-top: 10px !important;
+        padding: 0px 10px 0px 10px !important;
+    }
+    // submit onclick expo
+    .submit-expo{
+        width: 238px !important;
+        text-align: center;
+    }
+  }

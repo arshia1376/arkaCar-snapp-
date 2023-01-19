@@ -1,0 +1,28 @@
+@import "../../../varibale/all.scss";
+.style-contactUs {
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+  margin-top: 100px;
+  margin-bottom: 83px;
+}
+.box-contact {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-contact-us {
+  display: flex;
+}
+h2 {
+    margin-top: 10px;
+}
+.style-text-contact {
+    color:$gray;
+  font-size: $font-size-medium;
+}
+.address-text-contact {
+  width: 60%;
+}
+

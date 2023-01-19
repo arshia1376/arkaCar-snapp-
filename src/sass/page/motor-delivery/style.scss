@@ -1,0 +1,24 @@
+@import '../.././../varibale/all.scss';
+    // style unit
+.unit{
+    border: none;
+    box-shadow: none;
+    width: 50%;
+}
+    // style box unit
+.box-unit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid $color_border_input;
+    margin-top: 15px;
+
+}
+    // style unit brder
+.unit-border{
+    border-right: 1px solid rgba(184, 184, 184, 0.767);
+    padding-left: 30px;
+}

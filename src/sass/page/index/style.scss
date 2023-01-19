@@ -1,0 +1,409 @@
+@import "../../../varibale/all.scss";
+    // style box index
+.box-index {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    // style title index
+.title-index {
+  width: 36%;
+}
+    // style style index
+.style-index {
+  display: flex;
+  justify-content: center;
+}
+    // style tabline index
+.tabline-index {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  width: 80%;
+}
+    // style img option download
+.img-option-download{
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+    // style img index
+.imgIndex1 {
+  margin-top: 55px;
+  width: 350px;
+  height: 400px;
+
+}
+    // style box app download
+.box-app-download {
+  margin-top: 70px;
+}
+    // style boxs option index
+.boxs-option-index {
+  display: flex;
+  justify-content: space-between;
+}
+    // style img index
+.imgIndex2 {
+  width: 150px;
+  transform: rotateY(180deg);
+}
+    // style box text exhibition
+.box-text-Exhibition {
+  margin-bottom: 70px;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+    // style img exhibition
+.img-Exhibition {
+  width: 222px;
+}
+    // style box exhibition
+.box-Exhibition {
+    margin-top: 80px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+    // style title ako
+.title-ako {
+  text-align: right;
+}
+    // style text ako
+.text-ako {
+  margin-top: 15px;
+}
+    // style onclick exhibition
+.onclick-exhibition {
+  border: none;
+  background-color: $yellow;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+  
+}
+    // style logo ako car
+.ako-car {
+  margin-top: 75px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    // style img ako
+.img-ako {
+  width: 300px;
+}
+    // style title option index
+.title-option-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 45px;
+}
+    // style number link download
+.number-link-download {
+  border: none;
+  padding: 7px 6px 7px 28px;
+  border-radius: 5px;
+  border: 0.5px solid $color_border_input;
+}
+    // style title option
+.title-option {
+  font-size: $font-size-medium;
+}
+    // style app download
+.app-download {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 82px;
+  margin-bottom: 50px;
+}
+    // style button link
+.button-link {
+  background-color: $yellow;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 8px;
+  margin-right: 12px;
+  color: white;
+}
+    // style box link download
+.box-link-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    // style app
+.app {
+  display: flex;
+  border-radius: 9px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $color_border_input;
+
+}
+    // style img option
+.img-option {
+  width: 40px;
+  margin-top: 20px;
+}
+    // style text app
+.text-app {
+  font-size: $font-size-small;
+  margin: 14px;
+}
+    // style text option
+.text-option {
+  margin-bottom: 25px;
+  width: 52%;
+  text-align: center;
+  font-size: $font-size-small;
+}
+    // style box option index
+.box-option-index {
+  width: 13%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $yellow;
+}
+    // style text index
+.text-index {
+  color: $gray;
+}
+    // style style box index
+.style-box-index{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 48px;
+    background-color: rgba(216, 214, 214, 0.18);
+}
+    // style box title index
+.box-title-index {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+    // style img title index
+.img-title-index {
+  margin-top: 45px;
+}    // style nox link
+.box-link {
+  margin-top: 10px;
+  display: flex;
+    align-items: flex-start;
+}
+    // style span title download
+.span-title-download{
+  color: orange;
+  font-size: 20px;
+}
+    // style span text download
+.span-text-download{
+
+  font-size: 20px;
+}
+    // style option index and box app download
+.option-index,
+.box-app-download {
+  width: 80%;
+}
+    // style ako car index text
+.ako-car-index-text{
+  width: 40%;
+  text-align: center;
+  margin-top: 8px;
+}
+    // style resvansive index
+@media only screen and (max-width: 653px) {
+      // style text title index
+  .text-title-index{
+    font-size: 12px;
+  }     // style box appcdownlaod
+  .box-app-download{
+    width: 100%;
+  }
+      // style img title index
+  .img-title-index{
+    display: none;
+  }
+      // style title index
+  .title-index{
+    width: 90%;
+  }
+      // style img ako
+  .img-ako{
+    width: 0px;
+  }
+      // style span title and text download
+  .span-title-download,.span-text-download{
+    font-size: 9px;
+  }
+      // style ako car index title
+  .ako-car-index-title{
+    font-size: 14px;
+  }
+      // style ako car index text
+  .ako-car-index-text{
+    font-size: 8px;
+    width: 73%;
+  }
+      // style number link download
+  .number-link-download{
+    padding: 0px;
+  }
+      // style number link download placeholder
+  .number-link-download::placeholder{
+    font-size: 6px;
+    padding-bottom: 2px;
+  }
+      // style button link
+  .button-link{
+    font-size: 8px;
+    width: 75px;
+    padding: 5px 0px;
+  }
+      // style title app
+  .title-app{
+    font-size: 7px;
+  }
+      // style text app
+  .text-app{
+    margin: 0px;
+    font-size: 7px;
+    text-align: center;
+    margin-bottom: 14px;
+    width: 80%;
+  }
+      // style app
+  .app{
+width: 21%;
+  }
+      // style option system ako car
+  .option-system-ako-car{
+    font-size: 7px;
+    width: 90%;
+  }
+      // style text exhibition
+  .text-exhibition{
+font-size: 8px;
+  }
+      // style title exhibition
+  .title-Exhibition{
+    font-size: 9px;
+  }
+      // style onclick exhibition
+  .onclick-exhibition{
+    font-size: 7px;
+    padding: 3px;
+  }
+      // style box exhibition
+  .box-Exhibition{
+    margin-top: 15px;
+    justify-content: center;
+  }
+      // style box text exhibition
+  .box-text-Exhibition{
+    height: 140px;
+  }
+      // style logo ako car
+  .ako-car{
+    margin-top: 15px;
+  }
+      // style title ako
+  .title-ako{
+    font-size: 9px;
+    text-align: center;
+  }
+      // style app download
+  .app-download{
+    margin-top: 15px;
+  }
+      // style ako car index title
+  .ako-car-index-title1{
+    font-size: 12px;
+  }
+      // style img exhibition
+  .img-Exhibition{
+    width: 0px;
+  }
+      // style box link
+  .box-link{
+    align-items: center;
+    
+  }
+      // style box title index
+  .box-title-index{
+    margin-top: 60px;
+  }
+      // style text index
+  .text-index{
+    font-size: 8px;
+  }
+      // style img option
+  .img-option{
+    width: 20px;
+    height: 20px;
+  }
+      // style box option index
+  .box-option-index{
+    width: 53px;
+    height: 100px;
+  }
+      // style option index
+  .option-index{
+    width: 98%;
+  }
+      // style title option
+  .title-option{
+    font-size: 7px;
+  }
+      // style text option
+  .text-option{
+    font-size: 6px;
+  }
+      // style style box index
+  .style-box-index{
+    padding-bottom: 10px;
+  }
+      // style box app download
+  .box-app-download{
+    margin-top: 15px;
+  }
+      // style box exhibition
+  .box-Exhibition{
+    margin-top: 0px;
+  }
+      // style boxs option index
+  .boxs-option-index{
+    overflow-x: auto;
+  }
+      // style img option download
+  .img-option-download{
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+  }
+      // style title option index
+  .title-option-index{
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .list-footer-box{
+    height: fit-content;
+  }
+      // end resvansive
+}

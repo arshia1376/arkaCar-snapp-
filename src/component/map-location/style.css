@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.map{
+    width: 250px !important;
+    height: 250px !important;
+}
+.mapboxgl-ctrl-attrib-button{
+    display: none;
+}
+.mapboxgl-marker{
+    position: absolute;
+}
+.mapboxgl-canvas-container{
+    position: absolute;
+}
+

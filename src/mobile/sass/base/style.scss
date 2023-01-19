@@ -1,0 +1,50 @@
+@import '../../varibale/all.scss';
+
+@font-face
+{
+	font-family:"IRANYekan";
+	src:url(../../fonts/eot/iranyekanwebregular.eot);
+	src:url(../../fonts/woff2/iranyekanwebregular.woff2) format("woff2"),url(../../fonts/woff/iranyekanwebregular.woff) format("woff"),url(../../fonts/ttf/iranyekanwebregular.ttf) format("truetype")
+}
+
+* {
+    font-family:"IRANYekan";
+}
+body {
+    font-family:"IRANYekan";
+ //   background-color: yellowgreen;
+   
+}
+
+input {
+    font-family:"IRANYekan";
+    border: 0.5px solid $color_border_input;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+body,p,ul,li,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding: 0px;
+    direction: rtl;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input{
+    outline: none;
+}
+
+
+option{
+   
+    background-color: rgb(207, 207, 207);
+  border: none;
+  box-shadow: none;
+}

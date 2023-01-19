@@ -1,0 +1,81 @@
+@import "../../../varibale/all.scss";
+.box-blog {
+  display: flex;
+  justify-content: center;
+}
+.style {
+  width: 81%;
+  margin-top: 70px;
+}
+.img-questions {
+  width: 200px;
+  height: 200px;
+}
+.title-questions {
+  display: flex;
+  align-items: center;
+
+}
+.svg {
+  width: 286px;
+  position: absolute;
+  margin-top: -207px;
+  z-index: -1;
+}
+#text-questions {
+  font-size: $font-size-medium;
+  width: 60%;
+}
+.line {
+  width: 125px;
+  height: 2px;
+  margin: 20px;
+  background-color: $yellow;
+}
+.line-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid rgba(68, 68, 68, 0.274);
+  text-align: right;
+  outline: none;
+  font-size: $font-size-medium;
+}
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

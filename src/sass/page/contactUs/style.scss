@@ -1,0 +1,78 @@
+@import "../../../varibale/all.scss";
+// style contactus
+.style-contactUs {
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+  margin-top: 100px;
+  margin-bottom: 83px;
+}
+.map-contact-us{
+  width: 300px !important;
+  height: 300px !important;
+}
+// style box cotact
+.box-contact {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// text contact
+.text-contact-us {
+  display: flex;
+}
+// style h2
+h2 {
+    margin-top: 10px;
+}
+// style text contact
+.style-text-contact {
+    color:$gray;
+  font-size: $font-size-medium;
+}
+// addaress text contact
+.address-text-contact {
+  width: 60%;
+}
+// style resvansive
+@media only screen and (max-width: 653px) {
+  // style title aboutuys
+  .title-aboutus {
+    padding-top: 55px !important;
+    justify-content: space-between !important;
+}
+// box contact
+.box-contact{
+  flex-direction: column !important;
+
+}
+// orderline
+.orderline{
+  width: 60% !important;
+}
+// style text aboutus
+.text-aboutus{
+  font-size: 9px !important;
+  width: 16% !important;
+}
+// style contactus
+.style-contactUs{
+  margin-left: 0px !important;
+  margin-top: 20px !important;
+}
+// style text contact
+.style-text-contact {
+  font-size: 11px;
+}
+// style text contact
+.style-text-contact{
+  font-size: 10px !important;
+}
+// address text contact
+.address-text-contact {
+  width: 100% !important;
+}
+// end resvansive
+}
+

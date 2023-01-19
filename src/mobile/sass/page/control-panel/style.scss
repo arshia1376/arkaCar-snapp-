@@ -1,0 +1,95 @@
+@import '../../../varibale/all.scss';
+#box-panel{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#error-name-register{
+    color: red;
+    font-size: $font-size-medium;
+}
+.name-register-user{
+    margin-top: 8px;
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+margin-top: 25px;
+}
+#text-panel{
+   color:$silver;
+   font-size: $font-size-medium;
+}
+#phone-number-panel{
+    width:100%;
+    padding: 9px 0px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+#submit-code{
+    border: none;
+    border-radius: 5px;
+    background-color: $yellow;
+    color:$white;
+    padding: 5px 4px;
+}
+#code{
+    border: none;
+    padding: 9px;   
+     border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+#code-confirmation{
+    display: flex;
+    justify-content: space-between;
+    display:none;
+  
+}
+label{
+    color:$gray;
+    font-size: $font-size-small;
+}
+#html{
+    box-shadow: none;
+}
+.save{
+    display: none;
+    
+}
+#box-input-panel{
+    width: 22%;
+    text-align: center;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+::placeholder{
+    padding-right: 4px;
+    font-size: $font-size-small;
+}
+#time{
+    font-size: $font-size-small;
+}
+nav{
+    font-size: $font-size-small;
+}
+#box-time{
+    display: flex;
+}
+#title-error-code{
+    font-size: $font-size-small;
+    color:$gray;
+    border:none;
+}
+#code-not-received{
+    display: flex;
+    justify-content: flex-end;
+    display:none;
+}
+#save-information-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}

@@ -1,0 +1,72 @@
+@import "../../../varibale/all.scss";
+.blog {
+  width: 82%;
+  margin-top: 55px;
+}
+.img-title-blog {
+  background-image: url("../../../assets/image//imageblog.jpg");
+  background-size: 100%;
+  height: 410px;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.style-blog {
+  display: flex;
+  justify-content: center;
+}
+.logo-social-media{
+    width: 26px;
+}
+.box-social-media{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.social-media{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between; 
+}
+.logo-social-media-news-after{
+    width: 300px;
+    height: 250px;
+    border-radius: 13px;
+}
+.img-news-after{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.news-after{
+    margin-top: 35px;
+}
+.tite-news-after{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-like-blog {
+  width: 150px;
+  height: 45px;
+  background-color: $white;
+  border-radius: 15px;
+  float: left;
+}
+.time-blog {
+  color: $white;
+}
+.like-blog {
+  padding: 20px;
+}
+.timer-img-blog {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+}
+.text-img-blog {
+  padding-right: 25px;
+  padding-bottom: 10px;
+}

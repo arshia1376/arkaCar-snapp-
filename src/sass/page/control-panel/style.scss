@@ -1,0 +1,207 @@
+@import '../../../varibale/all.scss';
+// style box panel
+#box-panel{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+// style error name register
+#error-name-register{
+    color: red;
+    font-size: $font-size-medium;
+}
+// name register user
+.name-register-user{
+    margin-top: 8px;
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+margin-top: 25px;
+}
+// style text panel
+#text-panel{
+   color:$silver;
+   font-size: $font-size-medium;
+}
+// style code input submit
+.code-input-submit{
+    display: flex;
+    flex-direction: row;
+align-items: flex-end;margin-top: 60px;
+width: 270px;
+justify-content: space-between;
+}
+// style phone number panel
+#phone-number-panel{
+    width:100%;
+    padding: 9px 0px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+// submit code
+#submit-code{
+    border: none;
+    border-radius: 5px;
+    background-color: $yellow;
+    color:$white;
+    padding: 5px 4px;
+}
+// style code
+#code{
+    border: none;
+    padding: 9px;   
+     border: 0.5px solid $color_border_input;
+border-radius: 5px;
+}
+// style code confirmation
+#code-confirmation{
+    display: flex;
+    justify-content: space-between;
+    display:none;
+  
+}
+// style label
+label{
+    color:$gray;
+    font-size: $font-size-small;
+}
+// style html control panel
+#html{
+    box-shadow: none;
+}
+// style save panel
+.save{
+    display: none;
+    
+}
+// style box input panel
+#box-input-panel{
+    width: 22%;
+    text-align: center;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+// placeholder input panel
+::placeholder{
+    padding-right: 4px;
+    font-size: $font-size-small;
+}
+// time panel input
+#time{
+    font-size: $font-size-small;
+}
+// style nav
+nav{
+    font-size: $font-size-small;
+}
+// style box time
+#box-time{
+    display: flex;
+}
+// style title error code
+#title-error-code{
+    font-size: $font-size-small;
+    color:$gray;
+    border:none;
+}
+// style code not received
+#code-not-received{
+    display: flex;
+    justify-content: flex-end;
+    display:none;
+}
+// save informtin box
+#save-information-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+// style resvansive control panel
+@media only screen and (max-width: 653px) {
+    // style h2 register user
+   .h2-register-user{
+       font-size: 13px;
+   } 
+//    style title panel
+   .title{
+       width: 100px !important;
+   }
+//    style label input
+.label-phone-number{
+    font-size: 9px !important;
+    width: 255px  !important;
+
+}
+// style input phone number
+#phone-number{
+    font-size: 11px !important;
+    width: 260px  !important;
+}
+// style submit panel
+.submit{
+    font-size: 10px !important;
+    width: 260px !important;
+    margin-top: 10px !important;
+}
+// style submit placeholder panel
+::placeholder{
+    font-size: 9px !important;
+}
+// style error
+#error-phone-number{
+    width: 100%;
+    font-size: 8px !important;
+}
+// style code input submit
+.code-input-submit{
+    margin-top: 30px !important;
+    width: 260px !important;
+}
+// style submit code
+.submit-code{
+    width: 60px !important;
+    font-size: 9px !important;
+    height: 34px !important;
+}
+// style code
+#code{
+    padding: 5px !important;
+}
+// style error code
+#errorCODE{
+    text-align: right !important;
+    margin-right: 11px !important;
+}
+// style name register user
+.name-register-user{
+    font-size: 9px !important;
+    width: 92%  !important;
+    margin-top: 10px !important;
+}
+// style input city
+.input-city{
+    width: 92% !important;
+    margin-top: 10px !important;
+    justify-content: center !important;
+}
+// style selector city
+#city,#city1{
+    padding: 0px !important;
+    height: 38px !important;
+    width: 50% !important;
+}
+// style submit register
+#submit-register{
+    width: 93% !important;
+    padding: 3px 0px !important;
+    margin-top: 10px !important;
+}
+// error name register
+#error-name-register{
+   font-size: 9px !important;
+}
+}

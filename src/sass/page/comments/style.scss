@@ -1,0 +1,68 @@
+// style img comment
+.img-comment{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+// style fa thumbs up
+.fa-thumbs-up{
+    font-size: 19px;
+    color:black;
+    cursor: pointer;
+}
+// style text comment
+.text-comment{
+    font-size:12px;
+    width: 80%;
+}
+// box commment
+.box-comments{
+    width: 60%;
+    overflow: scroll;
+    height: 360px;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.28); 
+    box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.28);
+}
+// dtyle time comment
+.time-comment{
+    font-size:11px;
+    color:gray;
+}
+// style comment
+.comments{
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px;
+    
+}
+// style comment title
+.title-comments{
+    width: 80%;
+    margin-right: 10px;
+}
+// style replay
+.replay{
+    color:gray;
+    font-size:13px;
+}
+// like comment
+.like-comments{
+    display: flex;
+    width: 19%;
+    justify-content: space-between;
+}
+// style replay like
+#replay-like{
+    width: 8%;
+}
+// style fa thumbs un
+.fa-thumbs-un{
+    transform: rotateX(180deg);
+    margin-top:4px;
+}
+// style box replay
+#box-replay{
+    display: flex;
+    justify-content: flex-end;
+}

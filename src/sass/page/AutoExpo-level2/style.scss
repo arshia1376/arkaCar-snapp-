@@ -1,0 +1,69 @@
+@import '../../../varibale/all.scss';
+// style form autoexpo level2
+#form-autoExpo-level2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+// title page 2 auto expo
+.title{
+    font-size: $font-size-medium;
+    margin-bottom: 30px;
+    width: 100%;
+}
+// style box car
+.box-car{
+    width:16%;
+}
+// display page2 auto ecpo
+.display{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+// style box submit back
+.box-submit-back{
+    width: 270px;
+    display: flex;
+}
+// style submit back
+.back{
+    color: black;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 5px 60px;
+}
+// style resvansive page2 auto expo
+@media only screen and (max-width: 653px) {
+    // style box car
+    .box-car{
+    width: 100% !important;
+    }
+    // style form auto expo page2
+    #form-autoExpo-level2{
+        align-items: center;
+    }
+    // style name expo page2
+    .name-expo-level2{
+        margin-top: 10px !important;
+        padding: 5px 10px 5px 10px !important;
+    }
+    // style submit page2
+    .submit-level2{
+        width: 235px !important;
+    }
+    // box style submit back
+    .box-submit-back{
+        width: 237px !important;
+    }
+    // error value style input
+    #error-phone-number{
+        width: 100% !important;
+    }
+}
+// end style resvansive

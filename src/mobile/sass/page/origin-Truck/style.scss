@@ -1,0 +1,18 @@
+@import '../../../varibale/all.scss';
+.Load-weight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid #dcdcdcdb;
+    margin-top: 15px;
+}
+.weight-select{
+    border: none;
+   border-bottom: 1px solid rgba(185, 185, 185, 0.801);
+}
+.weight-select::optional{
+    padding-left: 10px;
+}

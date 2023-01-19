@@ -1,0 +1,29 @@
+/* @font-face {
+  font-family:"iranyekan";
+  src: url(./fonts/woff2/iranyekanwebbold\(fanum\).woff2);
+  src: url(./fonts/woff2/iranyekanweblight\(fanum\).woff2);
+  src: url(./fonts/woff2/iranyekanwebregular\(fanum\).woff2);
+  src: url(./fonts/woff/iranyekanwebbold\(fanum\).woff);
+  src: url(./fonts/woff/iranyekanweblight\(fanum\).woff);
+  src: url(./fonts/woff/iranyekanwebregular\(fanum\).woff);
+  src: url(./fonts/ttf/iranyekanwebbold\(fanum\).ttf);
+  src: url(./fonts/ttf/iranyekanweblight\(fanum\).ttf);
+  src: url(./fonts/ttf/iranyekanwebregular\(fanum\).ttf);
+  src: url(./fonts/svg/iranyekanwebregular\(fanum\).svg);
+  src: url(./fonts/svg/iranyekanweblight\(fanum\).svg);
+  src: url(./fonts/svg/iranyekanwebbold\(fanum\).svg);
+  src: url(./fonts/eot/iranyekanwebbold.eot);
+  src: url(./fonts/eot/iranyekanweblight.eot);
+  src: url(./fonts/eot/iranyekanwebregular.eot);
+}
+body {
+  margin: 0;
+ font-family: "iranyekan";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

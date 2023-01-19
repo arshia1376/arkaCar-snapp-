@@ -1,0 +1,60 @@
+@import '../../../varibale//all.scss';
+    // style box panel driver
+.box-panel-driver{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+    // style img panel
+.img-panel{
+border-radius: 50%;
+width: 200px;
+height: 200px;
+margin-top: 150px;
+}
+    // style bmit trip
+.submit-trip{
+    background-color: $yellow;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 10px;
+    width: 200px;
+}
+    // style list trip
+.list-trip{
+    background-color: rgba(196, 196, 196, 0.151);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+    // style resvansive
+@media only screen and (max-width: 653px) {
+        // style img panel
+    .img-panel{
+        width: 130px !important;
+height: 130px !important;   
+ }
+     // style submit trip
+ .submit-trip{
+     padding: 3px !important;
+     width: 160px !important;
+     font-size: 11px !important;
+     text-align: center !important;
+ }
+     // style list trip
+ .list-trip{
+    padding: 3px !important;
+    width: 160px !important;
+    font-size: 11px !important;
+    text-align: center !important;
+ }
+ // end resvansive
+}

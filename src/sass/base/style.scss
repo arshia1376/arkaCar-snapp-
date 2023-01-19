@@ -1,0 +1,77 @@
+@import '../../varibale/all.scss';
+// font fase iransans
+@font-face
+{
+	font-family:"IRANYekan";
+	src:url(../../fonts/eot/iranyekanwebregular.eot);
+	src:url(../../fonts/woff2/iranyekanwebregular.woff2) format("woff2"),url(../../fonts/woff/iranyekanwebregular.woff) format("woff"),url(../../fonts/ttf/iranyekanwebregular.ttf) format("truetype")
+}
+
+* {
+    font-family:"IRANYekan";
+}
+// font family iransans body
+body {
+    font-family:"IRANYekan";
+ //   background-color: yellowgreen;
+   
+}
+// style input
+input {
+    font-family:"IRANYekan";
+    border: 0.5px solid $color_border_input;
+    box-shadow: none;
+}
+// style a
+a{
+    text-decoration: none;
+}
+// style body
+body,p,ul,li,h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding: 0px;
+    direction: rtl;
+}
+// style webkit outer spin button
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+input:focus {
+    -webkit-box-shadow: 0px 0px 19px 2px rgba(53, 53, 53, 0.103); 
+    box-shadow: 0px 0px 19px 2px rgba(53, 53, 53, 0.096);
+  }
+// input style yupe number
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input{
+    outline: none;
+}
+// style option selector
+option{
+   
+    background-color: rgb(207, 207, 207);
+  border: none;
+  box-shadow: none;
+}
+::-webkit-scrollbar-track{
+    color:white ;
+    background-color:white ;
+}
+::-webkit-scrollbar-thumb{
+    color: $yellow;
+    background-color: $yellow;
+    border-radius: 5px;
+}
+::-webkit-scrollbar{
+    color:white ;
+    background-color:white ;
+}
+.box-blog-new::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+.final-style-box-blog::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}

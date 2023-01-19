@@ -1,0 +1,213 @@
+@import '../../../varibale/all.scss';
+// style box tabline
+* {
+  box-sizing: border-box;
+}
+// style body html tabline
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+// style box state tabline
+.box-state-tabline{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+// style fass
+.fass{
+color: #ffae00;
+font-size:27px;
+
+}
+// style box font awesome
+.box-font-awesome{
+  display: flex;
+  padding:0px 5px;
+    align-items: center;
+  border-radius: 8px 0px 0px 8px;
+  height: 42px;
+  border: 0.5px solid $yellow;
+  
+}
+// style car reserve
+.car-reserve{
+  z-index: 3;
+  display: flex;
+  border-radius:8px;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  width: 165px;
+  justify-content: space-between;
+  border:none;
+  border: 0.5px solid $color_border_input;
+}
+// style tab1,tab2,tab3
+#tab1,#tab2,#tab3{
+  display: none;
+  &:checked + label {
+    background: #ffae00;
+    color:white;
+    border-radius: 8px 8px 0px 0px;
+  }
+}
+// style body tabline
+body {
+  // style container
+  .container {
+    border-radius: 13px;
+    width: 100%;
+    border-radius: 13px;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    border: 0.5px solid $color_border_input;
+    overflow: hidden;
+ .defult-label {
+  background: #ffae00;
+  color:white;
+  border-radius: 8px 8px 0px 0px;
+ }
+ // style label tabline
+    label {
+      display: inline-block;
+      font-size: 16px;
+      height: 36px;
+      line-height: 36px;
+      width: 33.33%;
+      text-align: center;
+      background: #ffffff9f;
+      color: #555;
+      position: relative;
+      transition: 0.25s background ease;
+      cursor: pointer;
+      // style lebal after
+      &::after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        display: block;
+        background: rgba(255, 174, 0, 0.342);
+        bottom: 0;
+        opacity: 0;
+        left: 0;
+        transition: 0.25s ease;
+      }
+      // style lebal hover and after
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+ // style content container
+    .content-container {
+      background: rgba(255, 255, 255, 0.527);
+      position: relative;
+      height: 115px;
+      font-size: 16px;
+      // style content tab
+      .content-tab {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        opacity: 1;
+        transition: 0.25s ease;
+        color: #333;
+        // style h3 tabline
+        h3 {
+          font-weight: 200;
+    
+        }
+        // style p tabline
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+// style title car
+.title-car{
+  text-align: center;
+  color: black;
+}
+// style box text car
+.box-text-car{
+width: 100%;
+}
+// style container tabline mobile
+.container-tabline-mobile{
+  display: none;
+}
+// style resvansive
+@media only screen and (max-width: 653px) {
+  // style container tabline mobile
+.container-tabline-mobile{
+display: flex;
+width: 100%;
+height: 125px;
+background-color: #FFEFBC;
+border-radius: 6px;
+}
+// style box text car
+.box-text-car{
+  height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+// style box font awesome
+.box-font-awesome{
+border: none;
+border-bottom: .5px solid rgb(255, 217, 0);
+width: 100%;
+justify-content: center;
+border-radius: 0px;
+height: 24px;
+}
+// style car reserve
+.car-reserve{
+  width:47px ;
+  flex-direction: column;
+}
+// style title car
+.title-car{
+  font-size: 8px;
+}
+// style fass
+.fass{
+  font-size: 13px;
+}
+// style container tabline
+.container-tabline{
+display: none;
+}
+// style box car reserve mobile
+.box-car-reserve-mobile{
+  display: flex;
+  align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+// style box car reserve mobile overflow
+#box-car-reserve-mobile-overflow{
+  margin-top: 62px;
+  z-index: 0;
+}
+// style container tabline mobile
+.container-tabline-mobile{
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+// end resvansive
+}

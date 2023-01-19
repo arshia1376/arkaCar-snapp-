@@ -1,0 +1,175 @@
+@import "../../../varibale/all.scss";
+// style blog
+.blog {
+  width: 82%;
+  margin-top: 55px;
+}
+// style img title blog
+.img-title-blog {
+  background-image: url("../../../assets/image//imageblog.jpg");
+  background-size: 100%;
+  height: 410px;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+// style blog new
+.style-blog {
+  display: flex;
+  justify-content: center;
+}
+// style logo social media
+.logo-social-media{
+    width: 26px;
+}
+// style box social media
+.box-social-media{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+// social media
+.social-media{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between; 
+}
+// style logo social media news after
+.logo-social-media-news-after{
+    width: 300px;
+    height: 250px;
+    border-radius: 13px;
+}
+// style img news after
+.img-news-after{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+// style news after
+.news-after{
+    margin-top: 35px;
+}
+// style title news after
+.tite-news-after{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+// style box like blog
+.box-like-blog {
+  width: 150px;
+  height: 45px;
+  background-color: $white;
+  border-radius: 15px;
+  float: left;
+}
+// style time blog
+.time-blog {
+  color: $white;
+}
+// style like blog
+.like-blog {
+  padding: 20px;
+}
+// timer img blog
+.timer-img-blog {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+}
+// style text img blog
+.text-img-blog {
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+// style img title blog
+.img-title-blog{
+  margin-top: 50px;
+}
+// style text about blog news
+.text-about-blog-news{
+  width: 75%;
+}
+// style end text blog
+.end-text-blog{
+  width: 70%;
+  margin-top: 15px;
+}
+// style resvansive blog news
+@media only screen and (max-width: 600px) {
+  // style img title blog
+ .img-title-blog{
+   background-size: 200%;
+   height: 300px !important;
+   margin-top: 15px !important;
+ }
+//  style time blog
+ .time-blog{
+   font-size: 11px !important;
+ }
+//  time blog clock
+ .time-blog-clock{
+   margin-right: 10px;
+ }
+//  style box like blog
+ .box-like-blog {
+  width: 112px;
+  height: 36px;
+ }
+//  style title about blog news
+ .title-about-blog-news{
+   font-size: 12px;
+ }
+//  resvansive text about blog news
+ .text-about-blog-news{
+   font-size: 11px;
+   width: 100%;
+   margin-top: 10px;
+ }
+//  style social media
+ .social-media{
+  flex-direction: column;
+ }
+//  style author
+ .author{
+   font-size: 9px;
+   background-color: rgba(211, 211, 211, 0.377);
+   width: fit-content;
+   padding: 3px;
+   border-radius: 2px;
+ }
+//  style box social media
+ .box-social-media{
+   width: 100%;
+   align-items: flex-end;
+ }
+//  style logo social media
+ .logo-social-media {
+  width: 24px;
+  margin-top: 20px;
+}
+// style title network app blog
+.title-network-app-blog{
+  font-size: 11px;
+}
+// end text blog
+.end-text-blog{
+  font-size: 9px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+// title style box blog news related
+.title-box-blog-news-related{
+  margin-right: 8px;
+  font-size: 13px;
+}
+// style blog new scroll news
+.blog-new-scroll-news{
+  width: 180%;
+}
+//end resvansive 
+}

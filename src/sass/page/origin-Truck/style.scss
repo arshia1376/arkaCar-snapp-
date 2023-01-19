@@ -1,0 +1,48 @@
+@import '../../../varibale/all.scss';
+    // style load weight
+.Load-weight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid #dcdcdcdb;
+    margin-top: 15px;
+}
+    // style weight select
+.weight-select{
+    border: none;
+   border-bottom: 1px solid rgba(185, 185, 185, 0.801);
+}
+    // style box origin truck
+.box-origin-truck{
+    height: 480px;
+    margin-top: 40px ;
+}
+    // style weight select optional
+.weight-select::optional{
+    padding-left: 10px;
+
+}
+    // style resvansive
+@media only screen and (max-width: 653px) {
+        // style box origin cars truck
+    .box-origin-cars-truck {
+        width: 100% !important;
+        justify-content: flex-end;
+    }
+        // style box origin truck
+    .box-origin-truck{
+    height: 231px;
+    margin-top: 40px;
+    overflow-y: auto;
+    background-color: white;
+    border: .5px solid rgba(177, 177, 177, 0.267);
+    }
+     // style input source origin car
+    .input-source-origin-car{
+        margin-top: 355px !important;
+    }
+        // end resvansive
+}

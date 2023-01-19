@@ -1,0 +1,176 @@
+@import '../../../varibale/all.scss';
+// style driver profile
+.driver-profile{
+    width: 370px;
+    height: 260px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+// style submit cancell
+.submit-cancell{
+    width: 300px;
+    border: none;
+    background-color: rgba(219, 219, 219, 0.377);
+    border-radius: 3px;
+}
+// style price origin car driver profile
+.price-origin-car-driver-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+}
+// style box driver profile
+.box-driver-profile{
+    display: flex;
+    width: 24%;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+// style display driver profile
+.style-display-driver-profile{
+    display: flex;
+    justify-content: center;
+}
+// style box price time
+.box-price-time{
+    position:absolute;
+    height: 67%;
+    margin-top: 6px;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+// style time rach the car
+.time-Reach-the-car{
+    background-color: white;
+    padding: 4px;
+    font-size: 11px;
+    border-radius: 4px;
+    width: 130px;
+    margin-bottom: 35px;
+}
+// style img driver
+.img-driver{
+    border-radius: 50%;
+    width: 40px;
+}
+// .origin-truck{
+//     background-color: white;
+// }
+// style img call driver
+.img-call-driver{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(255, 174, 0);
+}
+// style box call driver
+.box-call-driver{
+    display: flex;
+    width: 31%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+// style box img name driver
+.box-img-name-driver{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+// style box img driver
+.box-img-driver{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+// style tag car
+.tag-car{
+    display: flex;
+    width: 35%;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 8px 3px rgba(194, 194, 194, 0.267);
+    justify-content: space-around;
+}
+// style tag city
+.tag-city{
+    padding-left: 5px;
+    border-left: 2px solid gray;
+}
+// style text profile driver
+.text-profile-driver{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+// style box tag car
+.box-tag-car{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+// style box input profile driver
+.box-input-profile-driver{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 3px rgba(173, 173, 173, 0.185);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+// style box style input driver
+.box-style-input-driver{
+    display: flex;
+    justify-content: center;
+}
+// style discount profile driver
+.Discount-profile-driver{
+    border: none;
+    border-radius: 12px;
+    box-shadow: none;
+    width: 40%;
+    padding: 10px 0px;
+}
+// style underline discount
+.underline-discount{
+    height: 100%;
+    width: 2px;
+    background-color: gray;
+}
+// style resvansive driver profile
+@media only screen and (max-width: 653px) {
+    // style3 driver profile
+    .driver-profile{
+        width: 96% !important;
+        height: 275px !important;
+    }
+    // style submit cancell
+    .submit-cancell {
+        width: 82% !important;
+    }
+    // style time reach the car
+    .time-Reach-the-car{
+        margin-bottom: 25% !important;
+        margin-right: 5px !important;
+    }
+    // style price origin car driver profile
+    .price-origin-car-driver-profile{
+        margin-top: 50px;
+        width: 100% !important;
+    }
+    // style box price time
+    .box-price-time{
+        width: 100% !important;
+    }
+    // end resvansive driver profile
+}

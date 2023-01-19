@@ -1,0 +1,58 @@
+@import '../../../varibale/all.scss';
+.city{
+    border: none;
+    background-color:$white;
+    padding-left: 27px;
+    margin-left: 15px;
+}
+.select-city{
+    height: 43px;
+}
+
+.expo{
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+text-align: center;
+margin-top: 25px;
+}
+.box-expo{
+    width:19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.city2{
+    border-right: 1px solid rgba(105, 105, 105, 0.301);
+    padding: 0px 15px; 
+}
+
+.style-input-expo{
+    margin-top: 8px;
+    padding: 9px;
+    width: 270px;
+    border: 0.5px solid $color_border_input;
+border-radius: 5px;
+margin-top: 25px;
+}
+.box-display{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.title{
+    text-align: center;
+}
+.submit{
+    text-align: center;
+    width: 270px;
+    padding: 9px;
+    background-color: $yellow;
+    box-shadow: none;
+}
+form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
